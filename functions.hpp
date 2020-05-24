@@ -20,6 +20,7 @@ void Start::Update() // Обновляется каждый фрейм (1 мс)
 	     std::cout << "  ";
 	}
 	std::cout << std::endl;
+	
 }
 Start::~Start() // Выполняется один раз при завершении
 {

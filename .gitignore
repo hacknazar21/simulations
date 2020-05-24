@@ -1,0 +1,4 @@
+*.bat
+scriptStart
+a.out
+*.exe
