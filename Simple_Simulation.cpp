@@ -11,7 +11,7 @@ int main()
 	    int t = id[p];
 	    if (t == id[q])
 	    { 
-	    	std::cout << "Связанны!" << "\n";
+	    	std::cout << "Connected!" << "\n";
 	    	continue;
 	    }
 	    for (int i = 0; i < N; ++i)
