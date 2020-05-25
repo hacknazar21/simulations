@@ -9,7 +9,11 @@ int main()
 	while(std::cin >> p >> q) 
 	{
 	    int t = id[p];
-	    if (t == id[q]) continue;
+	    if (t == id[q])
+	    { 
+	    	std::cout << "Связанны!" << "\n";
+	    	continue;
+	    }
 	    for (int i = 0; i < N; ++i)
 		   if (id[i] == t) id[i] = id[q];
 		std::cout << " " << p << " " << q << "\n";
